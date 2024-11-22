@@ -219,3 +219,80 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+.contacts-nav {
+  position: fixed;
+  top: 35%;
+  z-index: 30;
+  left: 0;
+  display: none;
+}
+
+/* Show contacts nav only on desktop/larger screens */
+@media screen and (min-width: 768px) {
+  .contacts-nav {
+    display: block;
+  }
+}
+
+.contacts-nav ul {
+  display: flex;
+  flex-direction: column;
+  width: 44px;
+  background: #95bff8;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.contacts-nav li {
+  margin-left: -84px;
+  width: 130px;
+  height: 3.5rem;
+  color: #fff;
+  border-radius: 0;
+  transition: all 0.5s ease;
+  background: #858585;
+  display: flex;
+  align-items: center;
+}
+
+.contacts-nav li:hover {
+  margin-left: 0;
+}
+
+.contacts-nav li:first-child {
+  border-top-right-radius: 6px;
+}
+
+.contacts-nav li:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+.contacts-nav li a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.contacts-nav li a svg {
+  flex-shrink: 0;
+}
+
+.contacts-nav .nav-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-nav .nav-icon svg {
+    width: 30px;
+    height: 30px;
+}

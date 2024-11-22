@@ -1,8 +1,5 @@
-import bwmap from './backgrounds/bw-map.jpeg';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
-import worldmap from './backgrounds/world-map.png';
-
 
 import photo from './personal/photo.jpg';
 import photoMobile from './personal/photoMobile.png';
@@ -40,18 +37,18 @@ import tl from './projects/tl.jpg';
 import sn from './projects/sn.png';
 
 
-import jsTech from './techs/JSTech.png';
-import reactTech from './techs/reactTech.png';
-import htmlTech from './techs/htmlTech.png';
-import typescriptTech from './techs/typescriptTech.png';
-import gitTech from './techs/gitTech.png';
-import cssTech from './techs/cssTech.png';
-import figmaTech from './techs/figmaTech.png';
-import reduxTech from './techs/reduxTech.png';
-import webpackTech from './techs/webpackTech.png';
-import nodeJsTech from './techs/nodeJsTech.png';
-import swaggerTech from './techs/swaggerTech.png';
-import tailwindTech from './techs/tailwindTech.svg';
+import jsTech from './techs-carousel/JSTech.png';
+import reactTech from './techs-carousel/reactTech.png';
+import htmlTech from './techs-carousel/htmlTech.png';
+import typescriptTech from './techs-carousel/typescriptTech.png';
+import gitTech from './techs-carousel/gitTech.png';
+import cssTech from './techs-carousel/cssTech.png';
+import figmaTech from './techs-carousel/figmaTech.png';
+import reduxTech from './techs-carousel/reduxTech.png';
+import webpackTech from './techs-carousel/webpackTech.png';
+import nodeJsTech from './techs-carousel/nodeJsTech.png';
+import swaggerTech from './techs-carousel/swaggerTech.png';
+import tailwindTech from './techs-carousel/tailwindTech.svg';
 
 
 export {
@@ -59,10 +56,8 @@ export {
     incubator,
     adminPanel,
     redStone,
-    bwmap,
     nairobi,
     whiteabstract,
-    worldmap,
     photo,
     photoMobile,
     gitlab,

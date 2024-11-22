@@ -8,11 +8,13 @@ import {
   Tech,
   Projects,
 } from './components';
+import ContactsNav from './components/Contact/ContactsNav';
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0">
+        <ContactsNav />
         <div>
           <Navbar />
           <Hero />
@@ -29,10 +31,10 @@ const App = () => {
         <Projects />
 
         <div
-          className="bg-experience bg-cover bg-center bg-no-repeat 
+          className="bg-experience bg-cover bg-center bg-no-repeat
             rounded-tl-[150px] rounded-br-[150px]">
           <div
-            className="bg-experienceLight bg-cover bg-center 
+            className="bg-experienceLight bg-cover bg-center
             bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
             <Experience />
           </div>
