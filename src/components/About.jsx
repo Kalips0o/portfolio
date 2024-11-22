@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -6,13 +5,12 @@ import { SectionWrapper } from '../hoc';
 import { photo } from '../assets';
 import { Carousel } from './caroucel/Carousel';
 
-
 const About = () => {
   return (
     <div className="mt-[1rem] relative">
       <div className="absolute inset-0 bg-[#F5F5F5] -z-10" />
 
-      <div className="flex flex-col-reverse lg:flex-row gap-10 overflow-hidden -mt-[8rem] mb-[8rem]">
+      <div className="flex flex-col-reverse lg:flex-row gap-10 overflow-visible -mt-[8rem] mb-[8rem]">
         <motion.div
           variants={fadeIn('right', 'tween', 0.2, 1)}
           className="lg:w-1/2 flex items-center"
@@ -42,7 +40,9 @@ const About = () => {
       </div>
 
       <motion.div
-        variants={fadeIn('up', 'tween', 0.3, 1)}
+        initial={{ opacity: 1 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
         className="-mt-[4rem] w-full"
       >
         <Carousel />

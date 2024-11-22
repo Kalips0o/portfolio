@@ -14,5 +14,6 @@ export default defineConfig({
         manualChunks: undefined
       }
     }
-  }
+  },
+  assetsInclude: ['**/*.pdf']
 })

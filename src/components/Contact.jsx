@@ -5,7 +5,6 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { send, sendHover } from '../assets';
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({

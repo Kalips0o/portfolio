@@ -11,5 +11,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://kalips0o.github.io/portfolio/"
+  "homepage": "https://kalips0o.github.io/portfolio/",
+  "devDependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "dependencies": {
+    "framer-motion": "^11.11.17",
+    "react-vertical-timeline-component": "^3.6.0"
+  }
 }
