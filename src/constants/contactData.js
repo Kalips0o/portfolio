@@ -18,7 +18,7 @@ export const contactData = {
     links: [
       {
         name: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/yauheniya-kazhamiaka-aa4252229/'
+        href: 'https://www.linkedin.com/in/yauheniya-kazhamiaka/'
       },
       {
         name: 'GitHub',
@@ -34,4 +34,4 @@ export const contactData = {
       }
     ]
   }
-}; 
+};
