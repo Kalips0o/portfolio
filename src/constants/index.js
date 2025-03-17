@@ -83,19 +83,18 @@ const technologies = [
 
 const experiences = [
     {
-        title: 'Front-End Developer',
-        company_name: 'IT incubator',
-        icon: incubator,
-        iconBg: '#333333',
-        date: 'Feb 2021 - Feb 2023',
-    },
-
-    {
-        title: 'Junior Front-End Developer',
+        title: 'Frontend Developer',
         company_name: 'IT MAE',
         icon: itMae,
         iconBg: '#333333',
         date: 'Feb 2023 - present time',
+    },
+    {
+        title: 'Frontend Developer',
+        company_name: 'IT incubator',
+        icon: incubator,
+        iconBg: '#333333',
+        date: 'Feb 2022 - Feb 2023',
     },
 
 ];
